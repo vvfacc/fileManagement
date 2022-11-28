@@ -17,9 +17,16 @@ $x = l \sqrt{1 - \frac{r^{2} \sin^{2}{\left(\omega t \right)}}{l^{2}}} + r \cos{
 
 </div>
 
-The velocity of piston is obtained by differentiated position versus time
-<div align = 'ceneter'>
+The velocity of piston is obtained by differentiated position versus time:
+<div align = 'center'>
 
 $\dot{x} = - \omega r \sin{\left(\omega t \right)} - \frac{\omega r^{2} \sin{\left(\omega t \right)} \cos{\left(\omega t \right)}}{l \sqrt{1 - \frac{r^{2} \sin^{2}{\left(\omega t \right)}}{l^{2}}}}$
+
+</div>
+
+Also the acceleration:
+<div align = 'center'>
+
+$\ddot{x} = - \omega^{2} r \cos{\left(\omega t \right)} + \frac{\omega^{2} r^{2} \sin^{2}{\left(\omega t \right)}}{l \sqrt{1 - \frac{r^{2} \sin^{2}{\left(\omega t \right)}}{l^{2}}}} - \frac{\omega^{2} r^{2} \cos^{2}{\left(\omega t \right)}}{l \sqrt{1 - \frac{r^{2} \sin^{2}{\left(\omega t \right)}}{l^{2}}}} - \frac{\omega^{2} r^{4} \sin^{2}{\left(\omega t \right)} \cos^{2}{\left(\omega t \right)}}{l^{3} \left(1 - \frac{r^{2} \sin^{2}{\left(\omega t \right)}}{l^{2}}\right)^{\frac{3}{2}}}$
 
 </div>
