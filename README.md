@@ -12,5 +12,7 @@ The formula is the LATEX code output from the Python file
 
 Let the crank radius be r and the conrod length be l. The angle of the crank is theta and the angle of the conrod makes with X axis is phi. For any constant crank velocity, the position of the piston, which is the equation of motions of this system is define as:
 <div align='center'>
+  
 $x = l \sqrt{1 - \frac{r^{2} \sin^{2}{\left(\omega t \right)}}{l^{2}}} + r \cos{\left(\omega t \right)}$
+  
 </div>
